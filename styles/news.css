@@ -1,0 +1,277 @@
+.news-section{
+    width: 100%;
+    min-height: 90vh; 
+    position: relative;   
+    top: 3rem; 
+    padding: 3rem 0; 
+}
+.news-content{
+    background-color: rgba(255, 255, 255, 0.26); 
+    width: 80%;
+    min-height: 80vh;
+    margin: 0 auto;
+    padding: 3rem 0;
+}
+.news-head{
+    width: 70%; 
+    padding: 3rem 0;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+}
+.news-head h1{ 
+    font-size: clamp(2rem,2vw,2rem);  
+    margin-bottom: 1rem;
+}
+.news-head h3{
+    font-family: 'fonty';
+    font-size: clamp(1rem,2vw,1.2rem);
+    color: rgba(0, 0, 0, 0.664); 
+    letter-spacing: .11rem;
+    font-weight: bold;
+}
+.form-cont{
+    width: 80%; 
+    margin: 0 auto;
+}
+.form{ 
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    display: flex; 
+}
+.form input{  
+padding: 2rem 4%;
+width: 87%; 
+object-position: center;
+border: 1px solid var(--border-hover);
+
+}
+.form ::placeholder{
+    font-family: fonty;
+    font-size: 1.2rem; 
+    font-weight: bold;
+}
+.form-btn{
+    background-color:black;
+    padding: 1.2rem 4%;
+    width:13%; 
+    color: white; 
+    text-align: center;
+    font-size: 2rem;
+}
+.form-btn .btnn:hover{
+    transition: linear ease-in-out .4s;
+    transform: translateX(10px);
+}
+.btnn{
+    color: white;
+    border: none;
+    outline: none;
+} 
+.news-text{
+    width: 80%; 
+    margin: 2rem auto;
+}
+.news-text h3{
+    font-family: 'fonty';
+    font-size: clamp(1rem,2vw,1.1rem);
+    color: rgba(0, 0, 0, 0.664); 
+    letter-spacing: .11rem;
+    text-align: center; 
+}
+ 
+
+
+
+
+
+
+
+
+
+
+/*  MEDIA QUERY MEDIUM SCREEN */
+@media screen and (max-width:900px) {
+
+    .news-section{  
+        min-height: 60vh;
+        top: 0;   
+    }
+    .news-content{
+        background-color: rgba(255, 255, 255, 0.26); 
+        width: 90%; 
+        padding: 1rem 0;
+        min-height: 60vh;
+    }
+
+    .news-head{
+        width: 90%; 
+        padding: 1rem 0; 
+    }
+
+    .form-cont{
+        width: 100%;  
+    }
+    .form{ 
+        width: 90%; 
+    }
+
+    .news-text{
+        width: 90%; 
+        margin: 2rem auto;
+    }
+}
+ 
+
+@media screen and (max-width:490px) {  
+
+    .form-cont{ 
+        padding: 0 3%;
+        width: 100%;  
+    }
+    .form{ 
+        width: 100%; 
+    }
+    .form input{   
+        width: 80%;  
+        }
+        .form-btn{ 
+            width:20%;  
+        }
+        .form-btn .btnn:hover{ 
+            transform: translateX(4px);
+        }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,88 @@
+/* HEADING STYLING */
+@import url(/styles/header.css);
+/* LAND PAGE STYLING */
+@import url(/styles/hero.css);
+/* LAND ABOUT STYLING */
+@import url(/styles/about.css);
+/* LAND TECH STACK STYLING */
+@import url(/styles/tech.css);
+/* LAND WORK STYLING */
+@import url(/styles/work.css);
+/* QUOTE STYLING */
+@import url(/styles/quote.css);
+/* NEWSLETTER STYLING */
+@import url(/styles/news.css);
+/* CONTACT STYLING */
+@import url(/styles/contact.css);
+
+
+
+
+
+
+
+/* DOWNLOADED FONT */
+@font-face{
+    font-family: 'font';
+    src: url('font/NeueMachina-Ultrabold.otf'); 
+}
+@font-face{
+    font-family: 'fonty';  
+    src: url('font/NeueMachina-Light.otf');
+}
+@font-face{
+    font-family: 'fontty'; 
+    src: url('font/NeueMachina-Regular.otf'); 
+}
+/* COLORS */
+:root{
+    --text-color: rgb(17,17,17);
+    --background-color:rgb(228,228,228);
+    --border-hover: rgba(0, 0, 0, 0.411);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    /* text-transform: capitalize; */
+    transition: .2s linear;  
+    color:var(--text-color); 
+}
+html{ 
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+}
+html::-webkit-scrollbar{
+    width: .2rem;
+}
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+html::-webkit-scrollbar-thumb{
+    background:var(--text-color);
+    border-radius: 5rem;
+} 
+body{
+    background: var(--background-color); 
+    color:var(--text-color);  
+    font-family: 'font';
+}
+body a{  
+    color:var(--text-color) ; 
+    text-decoration: none;
+}
+
+
+ 
+
+
+footer{
+    height: 100vh;
+    /* background-color: hotpink; */
+    top: 5rem;
+    position: relative;
+}

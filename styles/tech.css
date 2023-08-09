@@ -1,0 +1,293 @@
+.tech-section{
+    width: 100%;
+    min-height: 100vh; 
+    position: relative;
+    top: 3rem; 
+    padding: 0 6%;
+    background: white url(/image/nav-bg3.png);
+    background-repeat: no-repeat; 
+    background-size: contain;
+    background-position: top;
+}
+.tech-head-cnt{ 
+    border-bottom: 1px solid var(--border-hover); 
+    padding: 1rem 0;
+    margin-block: 1rem; 
+    display: grid;
+    grid-template-columns: repeat(2,1fr); 
+    width: 90%;
+    margin: 0 auto;
+} 
+.head-cnt{ 
+    float: right;
+    text-align: right;
+    padding-right: 6%; 
+} 
+.tech-head1 h1{
+    font-size: clamp(3rem,8vw,10rem);   
+} 
+.tech-head2{
+    margin-left: 1.5rem; 
+}
+.tech-head2 h1{
+    font-size: clamp(3rem,3vw,7rem);
+}
+.tech-cont1{ 
+    margin: 0 auto;
+    padding: 4rem 0;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    border-bottom: 1px solid var(--border-hover);     
+}
+.box{ 
+    width: 50%; 
+    margin: 0 auto;
+}
+.tech-cont1 h2{
+    font-size: clamp(1rem,3vw,2rem);
+    text-align: right;
+    letter-spacing: .11rem;
+    font-family: 'fontty';
+    font-weight: bold;
+}
+.tech-cont1 h4{
+    font-family: 'fonty';
+    font-size: clamp(1rem,2vw,1.3rem);
+    line-height: 2.3rem; 
+    letter-spacing: .11rem;
+}
+/* ********** */
+.tech-cont2{ 
+    border-bottom: 1px solid var(--border-hover); 
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    margin: 0 auto;
+    padding: 4rem 0;
+    width: 90%;
+}
+.tech-cont2 h2{
+    font-size: clamp(1rem,3vw,2rem);
+    text-align: right;
+    letter-spacing: .11rem;
+    font-family: 'fontty';
+    font-weight: bold;
+}
+.tech-cont2 h4{
+    font-family: 'fonty';
+    font-size: clamp(1rem,2vw,1.3rem);
+    line-height: 2.3rem; 
+    letter-spacing: .11rem;
+}
+/* ********** */
+.tech-cont3{ 
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    border-bottom: 1px solid var(--border-hover);
+    margin: 0 auto;
+    padding: 4rem 0;
+    width: 90%;
+}
+.tech-cont3 h2{
+    font-size: clamp(1rem,3vw,2rem);
+    text-align: right;
+    letter-spacing: .11rem;
+    font-family: 'fontty';
+    font-weight: bold;
+}
+.tech-cont3 h4{
+    font-family: 'fonty';
+    font-size: clamp(1rem,2vw,1.3rem);
+    line-height: 2.3rem; 
+    letter-spacing: .11rem;
+}
+/* ********** */
+.tech-cont4{ 
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    border-bottom:none;
+    margin: 0 auto;
+    padding: 4rem 0;
+    width: 90%;
+}
+.tech-cont4 h2{
+    font-size: clamp(1rem,3vw,2rem);
+    text-align: right;
+    letter-spacing: .11rem;
+    font-family: 'fontty';
+    font-weight: bold;
+}
+.tech-cont4 h4{ 
+    font-family: 'fonty';
+    font-size: clamp(1rem,2vw,1.3rem);
+    line-height: 2.3rem; 
+    letter-spacing: .11rem;
+}
+
+
+
+
+
+
+/*  MEDIA QUERY MEDIUM SCREEN */
+@media screen and (max-width:900px) {
+
+
+    .tech-section{ 
+        top: 1rem; 
+        padding: 0 3%; 
+        background-size: cover; 
+    }
+    .tech-head-cnt{   
+        margin-block: .1rem;  
+        grid-template-columns: 1fr ;  
+        width: 100%; 
+    }  
+    .head-cnt{ 
+        float: left;
+        text-align: start;
+        padding-right: 0; 
+    } 
+    .tech-head2{
+        margin-left:0; 
+    } 
+    .tech-cont1{   
+        padding: 2rem 0;
+        width: 100%; 
+    }
+    .box{ 
+        width: 50%; 
+        margin: 0  ;
+    } 
+    /* ********** */
+    .tech-cont2{ 
+        padding: 2rem 0;
+        width: 100%;
+    } 
+    /* ********** */
+    .tech-cont3{ 
+        padding: 2rem 0;
+        width: 100%;
+    } 
+    /* ********** */
+    .tech-cont4{ 
+        padding: 2rem 0;
+        width: 100%;
+    } 
+
+}
+ 
+@media screen and (max-width:410px) {  
+
+    .tech-cont1{  
+        padding: 2rem 0;
+        width: 100%; 
+        grid-template-columns: 1fr ; 
+    }
+    .box{ 
+        width: 100%;  
+        margin: 0 auto ; 
+    }
+    .tech-cont1 h2{ 
+        text-align: left;
+ 
+    } 
+    /* ********** */
+    .tech-cont2{ 
+        padding: 2rem 0;
+        width: 100%;
+        grid-template-columns: 1fr ;
+    } 
+    /* ********** */
+    .tech-cont3{ 
+        padding: 2rem 0;
+        width: 100%;
+        grid-template-columns: 1fr ;
+    } 
+    /* ********** */
+    .tech-cont4{ 
+        padding: 2rem 0;
+        width: 100%;
+        grid-template-columns: 1fr ;
+    } 
+    .tech-cont2 h2{
+        text-align: left;
+    }
+    .tech-cont3 h2{
+        text-align: left;
+    }  
+    .tech-cont4 h2{
+        text-align: left;
+    } 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

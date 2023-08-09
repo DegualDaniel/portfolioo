@@ -1,0 +1,105 @@
+.quote-section{
+    width: 100%;
+    min-height: 100vh; 
+    position: relative;  
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    top: 5rem; 
+    align-items: center;
+}
+.img-cont{
+    width: 90%; 
+}
+.quote-img{
+    width: 70%;
+
+}
+.quote-img img{
+    width: 100%; 
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+.quote{ 
+    display: flex;
+    padding-right: 6%;
+    
+}
+.quote span{
+    font-family: fonty;
+    font-size: 1.4rem; 
+}
+.quote h1{
+    font-size: clamp(3rem,3vw,6rem); 
+}
+.sign{
+    width: 30%;
+
+}
+.sign img{
+    width: 100%;
+    
+} 
+
+/*  MEDIA QUERY MEDIUM SCREEN */
+@media screen and (max-width:900px) {
+    .quote-section{ 
+        min-height: 70vh;  
+        top: 2rem;  
+        
+    }
+
+    .quote-img{
+        width: 100%;
+    
+    }
+    .sign{
+        width: 50%; 
+    }
+    .quote{ 
+        padding-right: 3%;
+        
+    }
+    .quote h1{
+        font-size: clamp(2rem,1vw,4rem); 
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width:450px) { 
+
+    .quote-section{ 
+        background:url(/image/guallu.jpeg);
+        background-position: left;
+        background-size: cover;
+        background-repeat: no-repeat;
+        grid-template-columns: 1fr;
+        display: flex;
+    }
+    .quote-img{
+        display: none;
+    }
+    .quote h1{
+        color: white;
+    }
+    .quote span p{
+        color: white;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
