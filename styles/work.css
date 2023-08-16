@@ -56,6 +56,7 @@
 }
 .about p{ 
     font-family: fonty;
+    line-height: 2rem;
 } 
 .live{
     display: flex;
@@ -89,7 +90,7 @@
 @media screen and (max-width:900px) {
     .work-section{ 
         padding: 0 3%;
-        top: 0; 
+        top: 0;  
     }
     .work-head{ 
         width: 90%; 
@@ -100,11 +101,17 @@
         row-gap: 1.5rem;
     
     }  
+    .about p{ 
+        font-family: fonty;
+        line-height: 2rem;
+    } 
 } 
 @media screen and (max-width:490px) {   
     .portfolio-cont{ 
-        min-height: 70vh; 
+        min-height: 70vh;  
     }
+ 
+
 }
 
  

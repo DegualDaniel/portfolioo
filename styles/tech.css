@@ -155,6 +155,7 @@
     .tech-cont1{   
         padding: 2rem 0;
         width: 100%; 
+        line-height: 2rem; 
     }
     .box{ 
         width: 50%; 
@@ -164,16 +165,19 @@
     .tech-cont2{ 
         padding: 2rem 0;
         width: 100%;
+        line-height: 2rem; 
     } 
     /* ********** */
     .tech-cont3{ 
         padding: 2rem 0;
         width: 100%;
+        line-height: 2rem; 
     } 
     /* ********** */
     .tech-cont4{ 
         padding: 2rem 0;
         width: 100%;
+        line-height: 2rem; 
     } 
 
 }
