@@ -22,11 +22,13 @@
 }  
 .project-sec{ 
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    /* background-color: red; */
 
 } 
 .portfolio-cont{
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
     background-color: white;
     min-height: 90vh;
